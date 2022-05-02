@@ -27,6 +27,7 @@ void GameObject::makeDead()
 // Returns true if this object should be checked for collisions.
 bool GameObject::isCollisionCheckEnabled()
 {
+	setCollisionCheckEnabled(true);
 	return isCollisionCheckEnabled_;
 }
 
