@@ -2,6 +2,8 @@
 #include "Ship.h"
 #include "MeteorSpawner.h"
 #include "Score.h"
+#include "GameOverScene.h"
+#include "Scrolling.h"
 
 
 GameScene::GameScene() 
@@ -15,6 +17,8 @@ GameScene::GameScene()
 	ScorePtr score = std::make_shared<Score>(sf::Vector2f(10.0f, 10.0f));
 	addGameObject(score);
 
+	ScrollingPtr scrolling = std::make_shared<Scrolling>();
+	addGameObject(scrolling);
 }
 
 int GameScene::getScore()

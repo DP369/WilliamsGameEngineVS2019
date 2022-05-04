@@ -88,12 +88,15 @@
     <ClCompile Include="Engine\Scene.cpp" />
     <ClCompile Include="Explosion.cpp" />
     <ClCompile Include="GameOverMessage.cpp" />
+    <ClCompile Include="GameOverScene.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="Laser.cpp" />
     <ClCompile Include="Meteor.cpp" />
     <ClCompile Include="MeteorSpawner.cpp" />
     <ClCompile Include="MyGame.cpp" />
+    <ClCompile Include="Scolling.cpp" />
     <ClCompile Include="Score.cpp" />
+    <ClCompile Include="ScrollSpawner.cpp" />
     <ClCompile Include="Ship.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -110,10 +113,13 @@
     <ClInclude Include="Meteor.h" />
     <ClInclude Include="MeteorSpawner.h" />
     <ClInclude Include="Score.h" />
+    <ClInclude Include="Scrolling.h" />
+    <ClInclude Include="ScrollSpawner.h" />
     <ClInclude Include="Ship.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Resources\explosion-spritesheet.png" />
+    <Image Include="Resources\explosion01.png" />
     <Image Include="Resources\laser.png" />
     <Image Include="Resources\meteor.png" />
     <Image Include="Resources\ship.png" />
