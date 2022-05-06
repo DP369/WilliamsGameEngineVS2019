@@ -7,7 +7,7 @@ class Scrolling : public GameObject
 {
 public:
 	//Creates our ship.
-	Scrolling();
+	Scrolling(sf::Vector2f pos);
 
 	//Functions overridden from GameObject:
 	void draw();

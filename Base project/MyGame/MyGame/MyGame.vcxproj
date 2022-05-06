@@ -118,6 +118,7 @@
     <ClInclude Include="Ship.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Resources\background.png" />
     <Image Include="Resources\explosion-spritesheet.png" />
     <Image Include="Resources\explosion01.png" />
     <Image Include="Resources\laser.png" />

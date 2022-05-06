@@ -78,6 +78,9 @@
     <Image Include="Resources\explosion01.png">
       <Filter>Resources</Filter>
     </Image>
+    <Image Include="Resources\background.png">
+      <Filter>Resources</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Font Include="Resources\Courneuf-Regular.ttf">
